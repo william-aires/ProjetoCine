@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-benchmark-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-hibernate-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-jmh-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/will/Downloads/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/will/Desktop/JAVA/itext/itext-5.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
