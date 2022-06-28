@@ -7,6 +7,7 @@ public class Filme {
 	private String classificacaoEtaria;
 	private String sinopse;
 	private String emCartazAte;
+	private String testeGit;
 	
 	public String getNomeDoFilme() {
 		return nomeDoFilme;
@@ -21,7 +22,7 @@ public class Filme {
 	}
 	public void setDuracaoDoFilme(String duracaoDoFilme) throws Exception {
 		if(duracaoDoFilme.isEmpty())
-			throw new Exception("Digite a Duração");
+			throw new Exception("Digite a Duraï¿½ï¿½o");
 		this.duracaoDoFilme = Integer.parseInt(duracaoDoFilme);
 	}
 	public String getGenero() {
@@ -49,7 +50,7 @@ public class Filme {
 	}
 	public void setEmCartazAte(String emCartazAte) throws Exception {
 		if(emCartazAte.equals("  /  /    ")) {
-			throw new Exception("Digite em Cartaz Atè");
+			throw new Exception("Digite em Cartaz Atï¿½");
 		}
 		this.emCartazAte = emCartazAte;
 	}
